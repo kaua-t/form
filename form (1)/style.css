@@ -1,0 +1,57 @@
+
+body{
+    height: 100vh;
+    background: linear-gradient(to bottom, #f2bc58,#fe8e04);
+}
+.con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 550px;
+    border-radius: 10px;
+}
+.cir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 100%;
+    border: 2px solid black;
+}
+#cir1{
+    border: 2px solid #fe8e04;
+    background-color: #f2bc58;
+}
+#nome1{
+    color: #f2bc58;
+}
+.circu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.caixa{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 20px;
+}
+.traco{
+    width: 109px;
+    height: 2px;
+    border: 2px solid black;
+}
+.texto-cima{
+    display: flex;
+    gap: 76px;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
